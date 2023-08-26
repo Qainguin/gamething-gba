@@ -1,0 +1,27 @@
+html {
+  background-color: #4B0082;
+}
+
+#grid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  place-items: center;
+  auto-rows: 200px;
+}
+
+.gba {
+  background-color: #6545B2;
+  border-radius: 5px;
+  width: 200px;
+  height: 200px;
+  transition: all .2s ease-in-out;
+}
+
+.gba:hover {
+  transform: scale(1.04);
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
